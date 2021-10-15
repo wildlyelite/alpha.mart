@@ -1,0 +1,154 @@
+/* Headings */
+
+.title {
+  background-color: #57CC99;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.main-heading {
+  padding: 30px 150px 0;
+  font-family: 'Bree Serif', serif;
+  font-weight: bolder;
+  color: #091353;
+  font-size: 2.8rem;
+}
+
+.main-heading1 {
+  padding: 100px 150px 0;
+  font-family: 'Bree Serif', serif;
+  font-weight: bolder;
+  color: #091353;
+  font-size: 2.8rem;
+}
+
+.alpha-logo {
+  background-color: white;
+  border-radius: 100%;
+  margin-right: 20px;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.heading-img {
+  border: 10px solid;
+  margin-top: 20%;
+  margin-bottom: 100px;
+  height: 60%;
+}
+
+/* Products */
+
+.products {
+  background-color: #F9F3DF;
+  padding: 7% 15%;
+}
+
+.products-text {
+  font-family: 'Bree Serif', serif;
+  margin-top: 40px;
+}
+
+.carousel-item {
+  text-align: center;
+}
+
+#btn-carousel1 {
+  padding-left: 140px;
+}
+
+#btn-carousel2 {
+  padding-right: 140px;
+}
+
+.carousel-img {
+  width: 500px;
+}
+
+@media (max-width: 1228px) {
+  .main-heading {
+    text-align: center;
+  }
+
+  .main-heading1 {
+    text-align: center;
+  }
+
+  .heading-img {
+    text-align: center;
+    margin: 100px;
+  }
+}
+
+/* Product Partners */
+
+.pp {
+  text-align: center;
+  background-color: #F9F3DF;
+}
+
+.pp-images {
+  margin: 20px;
+}
+
+/* Footer */
+
+#footer {
+  padding: 5% 5% 5px;
+  background-color: #F9F3DF;
+}
+
+.pf {
+  color: #091353;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bolder;
+}
+
+.sm-icons {
+  text-align: center;
+  background-color: #F9F3DF;
+}
+
+i {
+  padding: 12px;
+}
+
+.cpr {
+  color: #091353;
+  text-align: center;
+  background-color: #F9F3DF;
+}
+
+/* Products */
+
+#mid-page {
+  background-color: #57CC99;
+}
+
+.item-text {
+
+  font-family: 'Bree Serif', serif;
+  font-weight: bolder;
+  color:#3E00FF;
+  font-size: 2.8rem;
+  text-align: center;
+  margin-right: 100px;
+}
+
+.card {
+  height: 200px;
+  width: 200px;
+  padding: 5% 10%;
+
+}
+
+.carousel-inner {
+  padding: 5%;
+  padding-left: 15%;
+
+}
+
+.BA {
+  margin: 5% 0;
+}
