@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Alpha Mart</title>
+  <link rel="icon" href="favicon.ico">
+
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <!-- Bootstrap Scripts   -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
+  </script>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+
+  <!-- Alpha Icon -->
+  <a href="https://icons8.com/icon/23963/avengers"></a>
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/7d43948bc9.js" crossorigin="anonymous"></script>
+
+
+
+</head>
+
+<body>
+
+  <section class="title">
+
+    <!-- Main Nav Bar -->
+    <div>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img class="alpha-logo" src="https://img.icons8.com/windows/32/000000/avengers.png" />Alpha Mart</a>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#products">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#pp">Product Partners</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search " placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+        </div>
+      </nav>
+    </div>
+
+
+    <!-- Sub Nav Bar  -->
+    <div>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-light">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav m-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="grocery.html">Groceries</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="fashion.html">Fashion</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="tech.html">Tech</a>
+              </li>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="appliances.html">Appliances</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Header Area -->
+
+    <div class="row">
+      <div class="col-lg-6">
+        <h1 class="main-heading1">All you need is here.</h1>
+        <h1 class="main-heading"> Your one stop shop for everything.</h1>
+        <h1 class="main-heading"> Get amazing deals at amazing products.</h1>
+      </div>
+      <div class="col-lg-6">
+        <img class="heading-img" src="images/grocery-image.jpg" alt="">
+      </div>
+    </div>
+  </section>
+
+  <!--Products Carousel -->
+
+  <div class="products">
+    <div id="products" class="carousel slide" data-bs-ride="false" data-bs-interval="10000">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="carousel-img" src="images/grocery-img.jpeg" alt="...">
+          <h2 class="products-text">Get amazing deals on grocery items.This is the right place for all your grocery
+            needs.</h2>
+        </div>
+        <div class="carousel-item">
+          <img class="carousel-img" src="images/appliances-img.jpeg" alt="...">
+          <h2 class="products-text">Latest appliances like mobiles, laptops , ipads and many more, available at lowest
+            rates.</h2>
+        </div>
+        <div class="carousel-item">
+          <img class="carousel-img" src="images/electronics-img.jpeg" alt="...">
+          <h2 class="products-text">Electronic home appliances available at low rates and effective rates.</h2>
+        </div>
+        <div class="carousel-item">
+          <img class="carousel-img" src="images/fashion-img.jpeg" alt="...">
+          <h2 class="products-text">This festive season be in style with our exclusive fashion deals.</h2>
+        </div>
+      </div>
+      <button id="btn-carousel2" class="carousel-control-prev" type="button" data-bs-target="#products" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon btn-dark"></span>
+      </button>
+      <button id="btn-carousel1" class="carousel-control-next" type="button" data-bs-target="#products" data-bs-slide="next">
+        <span class="carousel-control-next-icon btn-dark"></span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Product Partners -->
+
+  <div id="pp" class="pp">
+    <img class="pp-images" src="images/TechCrunch.png" alt=""><img class="pp-images" src="images/tnw.png" alt=""><img class="pp-images" src="images/bizinsider.png" alt=""><img class="pp-images" src="images/mashable.png" alt="">
+  </div>
+
+
+  <!-- Products -->
+
+  <section id="mid-page">
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-interval="10000">
+      <div class="carousel-inner">
+        <h2 class="item-text">
+          <p class="item-text">GROCERIES</p>
+        </h2>
+        <div class="carousel-item active">
+          <div class="groceries">
+
+            <div class="row row-cols-6 row-cols-md-6 g-6">
+              <div class="col">
+                <div class="card h-100">
+                  <img src="groceries\81QpMk-NMmL._AC_UL480_FMwebp_QL65_.webp" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Country Bean Coffee</h5>
+                    <p class="card-text">At 15% off</p>
+                    <button type="button" class="btn btn-dark BA"><i class="far fa-credit-card"></i>Buy now</button>
+                    <button type="button" class="btn btn-outline-dark BA">Add to cart</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="groceries\12.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">TATA Sampann Masala</h5>
+                    <p class="card-text">At 15% off</p>
+                    <button type="button" class="btn btn-dark BA"><i class="far fa-credit-card"></i>Buy now</button>
+                    <button type="button" class="btn btn-outline-dark BA">Add to cart</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="groceries\81X0vBqUvFL._AC_UL480_FMwebp_QL65_.webp" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Dark Fantasy Borboun Biscuits</h5>
+                    <p class="card-text">At 15% off</p>
+                    <button type="button" class="btn btn-dark BA"><i class="far fa-credit-card"></i>Buy now</button>
+                    <button type="button" class="btn btn-outline-dark BA">Add to cart</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="groceries\7148R0rWDzS._AC_UL480_FMwebp_QL65_.webp" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Santoor Body Soap</h5>
+                    <p class="card-text">At 15% off</p>
+                    <button type="button" class="btn btn-dark BA"><i class="far fa-credit-card"></i>Buy now</button>
+                    <button type="button" class="btn btn-outline-dark BA">Add to cart</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="groceries\1234.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Lays, Cheetos, Doritos, Fritos</h5>
+                    <p class="card-text">At 15% off</p>
+                    <button type="button" class="btn btn-dark BA "><i class="far fa-credit-card"></i>Buy now</button>
+                    <button type="button" class="btn btn-outline-dark BA">Add to cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="carousel-item">
+          <div class="groceries">
+            <div class="row row-cols-6 row-cols-md-6 g-6">
+              <div class="col">
+                <div class="card h-100">
+                  <img src="groceries\123.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Organic Mixed Veggies</h5>
+                    <p class="card-text">At 15% off</p>
+                    <button type="button" class="btn btn-dark BA"><i class="far fa-credit-card"></i>Buy now</button>
+                    <button type="button" class="btn btn-outline-dark BA">Add to cart</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="groceries\12345.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Haldiram Namkeens</h5>
+                    <p class="card-text">At 15% off</p>
+                    <button type="button" class="btn btn-dark BA "><i class="far fa-credit-card"></i>Buy now</button>
+                    <button type="button" class="btn btn-outline-dark BA">Add to cart</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="groceries\123456.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Organic Vegetable Seeds</h5>
+                    <p class="card-text">At 15% off</p>
+                    <button type="button" class="btn btn-dark BA "><i class="far fa-credit-card"></i>Buy now</button>
+                    <button type="button" class="btn btn-outline-dark BA">Add to cart</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="groceries\600-turmeric-powder-chilli-powder-coriander-powder-pack-of-three.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Aditya Indian Spices</h5>
+                    <p class="card-text">At 15% off</p>
+                    <button type="button" class="btn btn-dark BA "><i class="far fa-credit-card"></i>Buy now</button>
+                    <button type="button" class="btn btn-outline-dark BA">Add to cart</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="groceries\dry.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Mixed Dry Fruits</h5>
+                    <p class="card-text">At 15% off</p>
+                    <button type="button" class="btn btn-dark BA "><i class="far fa-credit-card"></i>Buy now</button>
+                    <button type="button" class="btn btn-outline-dark BA">Add to cart</button>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon btn-dark" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon btn-dark" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+    <div id="fashioon" class="carousel slide" data-bs-ride="carousel" data-bs-interval="10000">
+      <div class="carousel-inner">
+        <h2 class="item-text">
+          <p class="item-text">FASHION</p>
+        </h2>
+        <div class="carousel-item active">
+          <div class="fashion">
+            <div class="row row-cols-6 row-cols-md-6 g-6">
+              <div class="col">
+                <div class="card h-100">
+                  <img src="fashion\123.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Men's Shirts</h5>
+                    <p class="card-text">At 20% off</p>
+                    <button type="button" class="btn btn-dark BA"><i class="far fa-credit-card"></i>Buy now</button>
+                    <button type="button" class="btn btn-outline-dark BA">Add to cart</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="fashion\pant.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Men's Trousers</h5>
+                    <p class="card-text">At 20% off</p>
+                    <button type="button" class="btn btn-dark BA "><i class="far fa-credit-card"></i>Buy now</button>
+                    <button type="button" class="btn btn-outline-dark BA">Add to cart</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="fashion\shirt.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Men's Shirts</h5>
+                    <p class="card-text">At 20% off</p>
+                    <button type="button" class="btn btn-dark BA "><i class="far fa-credit-card"></i>Buy now</button>
+                    <button type="button" class="btn btn-outline-dark BA">Add to cart</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="fashion\shirt1.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Men's Shirts</h5>
+                    <p class="card-text">At 20% off</p>
+                    <button type="button" class="btn btn-dark BA "><i class="far fa-credit-card"></i>Buy now</button>
+                    <button type="button" class="btn btn-outline-dark BA">Add to cart</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="fashion\shoes.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Men's Sports Shoes</h5>
+                    <p class="card-text">At 20% off</p>
+                    <button type="button" class="btn btn-dark BA "><i class="far fa-credit-card"></i>Buy now</button>
+                    <button type="button" class="btn btn-outline-dark BA">Add to cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="carousel-item">
+          <div class="fashion">
+            <div class="row row-cols-6 row-cols-md-6 g-6">
+              <div class="col">
+                <div class="card h-100">
+                  <img src="fashion\shoes1.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Men's Sports Shoes</h5>
+                    <p class="card-text">At 20% off</p>
+                    <button type="button" class="btn btn-dark BA"><i class="far fa-credit-card"></i>Buy now</button>
+                    <button type="button" class="btn btn-outline-dark BA">Add to cart</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="fashion\shoes2.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Men's Office Shoes</h5>
+                    <p class="card-text">At 20% off</p>
+                    <button type="button" class="btn btn-dark BA "><i class="far fa-credit-card"></i>Buy now</button>
+                    <button type="button" class="btn btn-outline-dark BA">Add to cart</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="fashion\shotrs.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Kid's T-Shirts & Shorts</h5>
+                    <p class="card-text">At 20% off</p>
+                    <button type="button" class="btn btn-dark BA"><i class="far fa-credit-card"></i>Buy now</button>
+                    <button type="button" class="btn btn-outline-dark BA">Add to cart</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="fashion\t-shirt.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Men's T-Shirts</h5>
+                    <p class="card-text">At 20% off</p>
+                    <button type="button" class="btn btn-dark BA "><i class="far fa-credit-card"></i>Buy now</button>
+                    <button type="button" class="btn btn-outline-dark BA">Add to cart</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="fashion\trousers.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Men's Trousers</h5>
+                    <p class="card-text">At 20% off</p>
+                    <button type="button" class="btn btn-dark BA "><i class="far fa-credit-card"></i>Buy now</button>
+                    <button type="button" class="btn btn-outline-dark BA">Add to cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev " type="button" data-bs-target="#fashioon" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon btn-dark" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next " type="button" data-bs-target="#fashioon" data-bs-slide="next">
+        <span class="carousel-control-next-icon btn-dark" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+    <div id="techni" class="carousel slide" data-bs-ride="carousel" data-bs-interval="10000">
+      <div class="carousel-inner">
+        <h2 class="item-text">
+          <p class="item-text">TECH</p>
+        </h2>
+        <div class="carousel-item active">
+          <div class="tech">
+            <div class="row row-cols-6 row-cols-md-6 g-6">
+              <div class="col">
+                <div class="card h-100">
+                  <img src="tech\download (2).jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Laptops</h5>
+                    <p class="card-text">At 30% off</p>
+                    <button type="button" class="btn btn-dark BA "><i class="far fa-credit-card"></i>Buy now</button>
+                    <button type="button" class="btn btn-outline-dark BA">Add to cart</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="tech\download.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Computers</h5>
+                    <p class="card-text">At 30% off</p>
+                    <button type="button" class="btn btn-dark BA "><i class="far fa-credit-card"></i>Buy now</button>
+                    <button type="button" class="btn btn-outline-dark BA">Add to cart</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="tech\OIP (6).jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Mobiles</h5>
+                    <p class="card-text">At 30% off</p>
+                    <button type="button" class="btn btn-dark BA"><i class="far fa-credit-card"></i>Buy now</button>
+                    <button type="button" class="btn btn-outline-dark BA">Add to cart</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="tech\th.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Flash Drives</h5>
+                    <p class="card-text">At 30% off</p>
+                    <button type="button" class="btn btn-dark BA "><i class="far fa-credit-card"></i>Buy now</button>
+                    <button type="button" class="btn btn-outline-dark BA">Add to cart</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="tech\12.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Laptops</h5>
+                    <p class="card-text">At 30% off</p>
+                    <button type="button" class="btn btn-dark BA "><i class="far fa-credit-card"></i>Buy now</button>
+                    <button type="button" class="btn btn-outline-dark BA">Add to cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="tech">
+            <div class="row row-cols-6 row-cols-md-6 g-6">
+              <div class="col">
+                <div class="card h-100">
+                  <img src="tech\123.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Mobiles</h5>
+                    <p class="card-text">At 30% off</p>
+                    <button type="button" class="btn btn-dark  BA"><i class="far fa-credit-card"></i>Buy now</button>
+                    <button type="button" class="btn btn-outline-dark BA">Add to cart</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="tech\12234.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Laptops</h5>
+                    <p class="card-text">At 30% off</p>
+                    <button type="button" class="btn btn-dark BA "><i class="far fa-credit-card"></i>Buy now</button>
+                    <button type="button" class="btn btn-outline-dark BA">Add to cart</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="tech\laptop.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Laptops</h5>
+                    <p class="card-text">At 30% off</p>
+                    <button type="button" class="btn btn-dark BA "><i class="far fa-credit-card"></i>Buy now</button>
+                    <button type="button" class="btn btn-outline-dark BA">Add to cart</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="tech\123456.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Mobiles & Keyboards</h5>
+                    <p class="card-text">At 30% off</p>
+                    <button type="button" class="btn btn-dark BA "><i class="far fa-credit-card"></i>Buy now</button>
+                    <button type="button" class="btn btn-outline-dark BA">Add to cart</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="tech\1234567.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Tablets</h5>
+                    <p class="card-text">At 30% off</p>
+                    <button type="button" class="btn btn-dark BA "><i class="far fa-credit-card"></i>Buy now</button>
+                    <button type="button" class="btn btn-outline-dark BA">Add to cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev " type="button" data-bs-target="#techni" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon btn-dark" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next " type="button" data-bs-target="#techni" data-bs-slide="next">
+        <span class="carousel-control-next-icon btn-dark" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+    <div id="appli" class="carousel slide" data-bs-ride="carousel" data-bs-interval="10000">
+      <div class="carousel-inner">
+        <h2 class="item-text">
+          <p class="item-text">APPLIANCES</p>
+        </h2>
+        <div class="carousel-item active">
+          <div class="appliances">
+            <div class="row row-cols-6 row-cols-md-6 g-6">
+              <div class="col">
+                <div class="card h-100">
+                  <img src="appliances\image1.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Electronics</h5>
+                    <p class="card-text">At 10% off</p>
+                    <button type="button" class="btn btn-dark BA "><i class="far fa-credit-card"></i>Buy now</button>
+                    <button type="button" class="btn btn-outline-dark BA">Add to cart</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="appliances\1.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Coffee Machine</h5>
+                    <p class="card-text">At 10% off</p>
+                    <button type="button" class="btn btn-dark BA "><i class="far fa-credit-card"></i>Buy now</button>
+                    <button type="button" class="btn btn-outline-dark BA">Add to cart</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="appliances\2.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Electronics</h5>
+                    <p class="card-text">At 10% off</p>
+                    <button type="button" class="btn btn-dark BA "><i class="far fa-credit-card"></i>Buy now</button>
+                    <button type="button" class="btn btn-outline-dark BA">Add to cart</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="appliances\3.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Waffle Maker & Hot-Pots</h5>
+                    <p class="card-text">At 10% off</p>
+                    <button type="button" class="btn btn-dark BA "><i class="far fa-credit-card"></i>Buy now</button>
+                    <button type="button" class="btn btn-outline-dark BA">Add to cart</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="appliances\4.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Electronics</h5>
+                    <p class="card-text">At 10% off</p>
+                    <button type="button" class="btn btn-dark BA"><i class="far fa-credit-card"></i>Buy now</button>
+                    <button type="button" class="btn btn-outline-dark BA">Add to cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="appliances">
+            <div class="row row-cols-6 row-cols-md-6 g-6">
+              <div class="col">
+                <div class="card h-100">
+                  <img src="appliances\5.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Microwaves</h5>
+                    <p class="card-text">At 10% off</p>
+                    <button type="button" class="btn btn-dark BA "><i class="far fa-credit-card"></i>Buy now</button>
+                    <button type="button" class="btn btn-outline-dark BA">Add to cart</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="appliances\6.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Ovens</h5>
+                    <p class="card-text">At 10% off</p>
+                    <button type="button" class="btn btn-dark BA"><i class="far fa-credit-card"></i>Buy now</button>
+                    <button type="button" class="btn btn-outline-dark BA">Add to cart</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="appliances\7.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Grinders & Mixers</h5>
+                    <p class="card-text">At 10% off</p>
+                    <button type="button" class="btn btn-dark  BA"><i class="far fa-credit-card"></i>Buy now</button>
+                    <button type="button" class="btn btn-outline-dark BA">Add to cart</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="appliances\8.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Grilling Machine</h5>
+                    <p class="card-text">At 10% off</p>
+                    <button type="button" class="btn btn-dark BA "><i class="far fa-credit-card"></i>Buy now</button>
+                    <button type="button" class="btn btn-outline-dark BA">Add to cart</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="appliances\9.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Juice Maker</h5>
+                    <p class="card-text">At 10% off</p>
+                    <button type="button" class="btn btn-dark BA "><i class="far fa-credit-card"></i>Buy now</button>
+                    <button type="button" class="btn btn-outline-dark BA">Add to cart</button>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev " type="button" data-bs-target="#appli" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon btn-dark" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next " type="button" data-bs-target="#appli" data-bs-slide="next">
+        <span class="carousel-control-next-icon btn-dark" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+
+  <div class="pf" id="footer">
+    <p>Thank you for visiting our website.</p>
+    <p>For more details and queries contact us via Moblie No:- 82971658** (or) 99897099**. </p>
+    <p>Also, follow us on our social media accounts:-</p>
+  </div>
+
+  <div class="sm-icons">
+    <i class="cn-img fab fa-twitter"></i><i class="cn-img fab fa-facebook-f"></i><i class="cn-img fab fa-instagram"></i><i class="cn-img far fa-envelope"></i>
+  </div>
+
+  <p class="cpr">© Copyright 2021 Alpha Mart</p>
+
+</body>
+
+</html>
